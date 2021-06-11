@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ViewerController extends Controller
 {
     public function show(){
-        return view('Viewer.welcome');
+        return view('viewer.welcome');
     }
 }
